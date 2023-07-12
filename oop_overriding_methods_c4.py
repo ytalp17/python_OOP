@@ -50,3 +50,6 @@ p2 = Point(3,2)
 print('sum', p1 + p2)
 print('p1>p2 ', p1==p2)
 
+
+# you can see all the predefined functions on python by using CL command egrep -oh '__[A-Za-z_][A-Za-z_0-9]*__' *.py | sort | uniq
+# under /Lib directory 
